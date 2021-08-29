@@ -90,7 +90,7 @@ Furthermore, aggregated data is visualized in the web app to understand which ca
     - To run ML pipeline that trains classifier and saves
         'python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl'
 
-2. Run the following command in the app's directory to run your web app.
+2. Run the following command in the app's directory to run your web app (make sure you are in the right directory).
     'python run.py'
 
 3. Once the server is running, open a new terminal window and type
