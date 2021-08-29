@@ -84,8 +84,9 @@ Furthermore, aggregated data is visualized in the web app to understand which ca
 
 3. Once the server is running, open a new terminal window and type
     'env | grep WORK'
+    Use the output in the next step.
 
-3. Go to https://<SPACEID>-3001.<SPACEDOMAIN>
+3. Go to https://**SPACEID**-3001.**SPACEDOMAIN**
   
 
 ### Licensing, Authors, Acknowledgements, etc.
