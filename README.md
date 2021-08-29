@@ -21,23 +21,29 @@ Furthermore, visualizations of the data are shown in the web application.
 
 ### File Descriptions
 
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+app    
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- InsertDatabaseName.db   # database to save clean data to
+| - template    
+| |- master.html # main page of web app    
+| |- go.html # classification result page of web app    
+|- run.py # Flask file that runs app    
 
-- models
-|- train_classifier.py
-|- classifier.pkl  # saved model 
 
-- README.md
+data    
+
+|- disaster_categories.csv # data to process    
+|- disaster_messages.csv # data to process    
+|- process_data.py # data cleaning pipeline    
+|- InsertDatabaseName.db # database to save clean data to     
+
+
+models   
+
+|- train_classifier.py # machine learning pipeline     
+|- classifier.pkl # saved model     
+
+
+README.md
 
 The folder 'Jupyter Notebooks' was added for documentation purposes and is not required for running the application.
 
